@@ -1,0 +1,69 @@
+---
+title: "Vectors in R"
+author: "Julia Parish"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Create a vector
+vec_a <- c(4, 5)
+
+
+```
+## Another code chunk to hide code - changing code chunk header
+
+```{r, echo = FALSE} 
+
+vec_b <- c(-3, 10)
+
+```
+
+## Vector addition
+
+
+```{r}
+# Create a new vecotr vec_ that is the sum of bec_a and vec_b
+
+vec_c <- vec_a + vec_b
+
+```
+
+## Vector subtration
+
+```{r}
+# vec_d is vec_b - vec_a
+
+vec_d <- vec_b - vec_a
+
+```
+
+## Vector scalar multiplier:
+```{r}
+# what is vec_e if it is 4 * vec_b
+
+vec_e <- 4 * vec_b
+
+```
+
+### Dot products
+## If we use the asterick*
+
+```{r}
+vec_a * vec_b
+
+```
+## The correct operator for a Dot Product is %*%
+```{r}
+
+vec_a %*% vec_b
+
+```
+
+
+
+
