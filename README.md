@@ -7,3 +7,4 @@ project to practice &amp; working with vectors in R and Python
 - dance
 - watch sunset
 
+## I love tacos and rainbows plus salty water
